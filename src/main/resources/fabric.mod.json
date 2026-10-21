@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bleach_mod",
+  "version": "${mod_version}",
+  "name": "Bleach Mod",
+  "description": "A Minecraft mod featuring Bleach-themed content including Shikai, Bankai, and bosses.",
+  "authors": ["YourName"],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/yourusername/bleach_mod"
+  },
+  "license": "MIT",
+  "icon": "assets/bleach_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.bleachmod.BleachMod"
+    ]
+  },
+  "mixins": [
+    "bleach_mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}

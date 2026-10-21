@@ -1,0 +1,28 @@
+[mods]
+modId = "bleach_mod"
+version = "${mod_version}"
+displayName = "Bleach Mod"
+description = "A Minecraft mod featuring Bleach-themed content including Shikai, Bankai, and bosses."
+authors = "YourName"
+license = "MIT"
+
+[[dependencies.bleach_mod]]
+modId = "fabricloader"
+mandatory = true
+versionRange = ">=0.14.0"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bleach_mod]]
+modId = "fabric-api"
+mandatory = true
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bleach_mod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "1.21.11"
+ordering = "NONE"
+side = "BOTH"
